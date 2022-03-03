@@ -3,4 +3,4 @@
  * 	Дана строка 'LONDON'. Сделайте из нее строку 'London'
  */
 $str = 'LONDON';
-echo ucfirst( strtolower($str));
+echo ucfirst(strtolower($str));
