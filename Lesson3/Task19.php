@@ -4,7 +4,7 @@
  * Решите задачу через switch-case. 
  */
 $num = 4;
-switch($num) {
+switch ($num) {
     case 1: 
         echo "Зима";
         break;

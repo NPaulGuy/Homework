@@ -6,7 +6,7 @@
 $str = "794302";
 $firstDigitGroup = $str[0] + $str[1] + $str[2];
 $secondDigitGroup = $str[3] + $str[4] + $str[5];
-if($firstDigitGroup === $secondDigitGroup) {
+if ($firstDigitGroup === $secondDigitGroup) {
     echo "да";
 } else {
     echo "нет";

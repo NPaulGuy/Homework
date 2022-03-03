@@ -5,7 +5,7 @@
  */
 $var = true;
 // Вариант 1 
-if($var) {
+if ($var) {
     echo "Верно";
 } else {
     echo "Неверно";
