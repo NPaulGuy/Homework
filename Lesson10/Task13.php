@@ -6,15 +6,15 @@
 $week = ['воскресенье', 'понедельник', 'вторник','среда','четверг','пятница', 'суббота'];
 if (
     !empty($_POST['date']) 
-    && preg_match('#^\d{2}\.\d{2}\.\d{4}$#', $_POST['date'])
 ) {
     $date = $_POST['date']; 
-    $arr = explode('.', $date);
-    echo $week[date("w", mktime(0, 0, 0, $arr[1], $arr[0], $arr[2]))];
+    // input:date преобразовало дату в формат YYYY-mm-dd
+    $arr = explode('-', $date);
+    echo $week[date("w", mktime(0, 0, 0, $arr[1], $arr[2], $arr[0]))];
 }
 ?>
 <form method="post" name="inputForm">
     <label>Дата:</label><br>
-    <input type="text" name="date">
+    <input type="date" name="date">
     <input type="submit" name="submitButton" value="Ввод">
 </form>

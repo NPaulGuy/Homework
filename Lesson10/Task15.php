@@ -17,7 +17,7 @@ if (
     if ($date1 > $date2) {
         echo "Больше Дата1: " . $_POST['date1'];
     } elseif ($date1 < $date2) {
-        echo "Большое Дата2: " . $_POST['date2'];
+        echo "Больше Дата2: " . $_POST['date2'];
     }
 }
  ?>
