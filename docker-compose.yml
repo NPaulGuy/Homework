@@ -1,10 +1,14 @@
 version: '3'
 
 services:
-  app:
-    build:
-      context: .
-    ports:
-      - 8080:80
-    volumes:
-      - .:/var/www/html
+    homework:
+        image: nginx:latest
+        ports:
+            - "80:80"
+        volumes: 
+            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+            - .:/Homework
+    php:
+        image: php:fpm
+        volumes:
+            - .:/Homework
