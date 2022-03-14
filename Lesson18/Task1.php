@@ -2,6 +2,11 @@
 /**
  * 	Сделайте функцию, которая принимает строку на русском языке, а возвращает ее транслит. 
  */
+/**
+ * @param string $str
+ * 
+ * @return string
+ */
 function rustoEng(string $str) : string {
     $russian = array(
         'А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 
