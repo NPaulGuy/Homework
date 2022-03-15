@@ -2,7 +2,7 @@
 /**
  * Напишите функцию, которая создает чекбокс и сохраняет его значение после отправки.
  */
-function createCheckbox(
+function createCheckBox(
     string $name, 
     string $value, 
     bool $isChecked
