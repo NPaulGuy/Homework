@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task25
+
+RewriteCond %{REQUEST_URI} \.css$ [OR]
+RewriteCond %{REQUEST_URI} ^/Lesson30/Task25/styles/
+RewriteRule .+ index.php

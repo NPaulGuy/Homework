@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task32
+
+RewriteRule test index.php [L]
+
+RewriteRule index\.php test

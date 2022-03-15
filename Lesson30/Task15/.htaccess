@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task15
+
+RewriteRule test([0-9])\.php$ index.php

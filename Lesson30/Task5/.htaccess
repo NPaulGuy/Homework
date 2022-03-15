@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task5
+
+RewriteRule ^dir([1-2]) index$1.php
