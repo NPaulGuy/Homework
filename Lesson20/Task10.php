@@ -2,6 +2,13 @@
 /**
  * Напишите функцию, которая создает чекбокс и сохраняет его значение после отправки.
  */
+/**
+ * @param string $name
+ * @param string $value
+ * @param bool $isChecked
+ * 
+ * @return void
+ */
 function createCheckBox(
     string $name, 
     string $value, 
