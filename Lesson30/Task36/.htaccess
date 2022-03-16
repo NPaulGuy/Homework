@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task36
+
+ErrorDocument 404 /Lesson30/Task36/404.php
