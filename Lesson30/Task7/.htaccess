@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task7
+
+RewriteRule \.php$ index.php

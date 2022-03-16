@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task6
+
+RewriteRule \.html$ index.php

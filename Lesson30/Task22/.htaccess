@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task22
+
+RewriteCond %{REQUEST_URI} !\.html$
+RewriteRule .+ index.php

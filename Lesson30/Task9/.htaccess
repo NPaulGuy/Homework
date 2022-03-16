@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task9
+
+RewriteRule (.+)\.html$ $1.php

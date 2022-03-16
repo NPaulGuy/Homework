@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task33
+
+RewriteCond %{REQUEST_URI} !^/Lesson30/Task33/index\.php$
+RewriteRule (.+) index.php?url=$1

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task3
+
+RewriteRule ^index.php http://site.com

@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task34
+
+RewriteRule index\.php/(.+)$ index.php?url=$1

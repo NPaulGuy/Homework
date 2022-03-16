@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task16
+
+RewriteRule test(\d+)\.php$ index.php

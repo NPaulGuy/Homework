@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task2
+
+RewriteRule ^index([1-3]).php $1.php

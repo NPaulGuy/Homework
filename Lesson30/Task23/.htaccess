@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /Lesson30/Task23
+
+RewriteCond %{REQUEST_URI} ^/Lesson30/Task23/content/
+RewriteCond %{REQUEST_URI} \.html$
+RewriteRule .+ index.php
