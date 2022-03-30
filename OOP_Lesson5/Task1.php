@@ -4,23 +4,41 @@
  * isAgeCorrect(проверить возраст от 18 включительно до 60 включительно). Сделайте поля класса приватными.
  * Попробуйте вызвать метод isAgeCorrect снаружи класса. Убедитесь, что это будет вызывать ошибку. 
  */
+/**
+ * [Description User]
+ */
 class User
 {
     private string $name;
     private int $age;
+    /**
+     * @param string $name
+     * @param int $age
+     */
     public function __construct(string $name, int $age) 
     {
         $this->name = $name;
         $this->age = $age;
     }
+    /**
+     * @return string
+     */
     public function getName() : string 
     {
         return $this->name;
     }
+    /**
+     * @return int
+     */
     public function getAge() : int 
     {
         return $this->age;
     }
+    /**
+     * @param int $age
+     * 
+     * @return bool
+     */
     private function isAgeCorrect(int $age) : bool 
     {
         if (isset($age)) {
@@ -30,6 +48,11 @@ class User
         }
 
     }
+    /**
+     * @param int $age
+     * 
+     * @return User
+     */
     public function setAge(int $age) : User 
     {
         if ($this->isAgeCorrect($age)) {
@@ -37,6 +60,11 @@ class User
         }
         return $this;
     }
+    /**
+     * @param int $years
+     * 
+     * @return User
+     */
     public function addAge(int $years) : User 
     {
         if($this->isAgeCorrect($this->age + $years)) {
@@ -44,6 +72,11 @@ class User
         }
         return $this;
     }
+    /**
+     * @param int $years
+     * 
+     * @return User
+     */
     public function subAge(int $years) : User 
     {
         if($this->isAgeCorrect($this->age - $years)) {
@@ -52,4 +85,4 @@ class User
         return $this;
     }
 }
-//var_dump(isAgeCorrect()); // Ошибка!
+var_dump(isAgeCorrect()); // Ошибка!
