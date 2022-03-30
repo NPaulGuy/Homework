@@ -7,33 +7,58 @@
  * Сделайте в классе Employee метод checkAge, который будет проверять то, что работнику больше 18 лет и возвращать true, если это так, и false, если это не так.
  * Создайте два объекта класса Employee, запишите в их свойства какие-либо значения. С помощью метода getSalary найдите сумму зарплат созданных работников.
  */
+/**
+ * [Description Employee]
+ */
 class Employee
 {
     private string $name;
     private int $age;
     private int $salary;
+    /**
+     * @param string $name
+     * @param int $age
+     * @param int $salary
+     */
     public function __construct(string $name, int $age, int $salary) 
     {
         $this->name = $name;
         $this->age = $age;
         $this->salary = $salary;
     }
+    /**
+     * @return string
+     */
     public function getName() : string 
     {
         return $this->name;
     }
+    /**
+     * @return int
+     */
     public function getAge() : int 
     {
         return $this->age;
     }
+    /**
+     * @return int
+     */
     public function getSalary() : int 
     {
         return $this->salary;
     }
+    /**
+     * @param string $str
+     * 
+     * @return string
+     */
     public function show(string $str) : string
     {
         return $str . "!!!";
     }
+    /**
+     * @return bool
+     */
     public function checkAge() : bool 
     {
         return $this->age > 18;

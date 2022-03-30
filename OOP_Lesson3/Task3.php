@@ -5,50 +5,85 @@
  * В классе Rectangle сделайте метод getSquare, который будет возвращать площадь этого прямоугольника. 
  * В классе Rectangle сделайте метод getPerimeter, который будет возвращать периметр этого прямоугольника. 
  */
+/**
+ * [Description Employee]
+ */
 class Employee
 {
     private string $name;
     private int $salary;
+    /**
+     * @param string $name
+     * @param int $salary
+     */
     public function __construct(string $name, int $salary) 
     {
         $this->name = $name;
         $this->salary = $salary;
     }
+    /**
+     * @return string
+     */
     public function getName() : string 
     {
         return $this->name;
     }
+    /**
+     * @return int
+     */
     public function getSalary() : int 
     {
         return $this->salary;
     }
+    /**
+     * @return Employee
+     */
     public function doubleSalary() : Employee 
     {
         $this->salary *= 2;
         return $this;
     }
 }
+/**
+ * [Description Rectangle]
+ */
 class Rectangle 
 {
     private int $width;
     private int $height;
+    /**
+     * @param int $width
+     * @param int $height
+     */
     public function __construct(int $width, int $height) 
     {
         $this->width = $width;
         $this->height = $height;
     }
+    /**
+     * @return string
+     */
     public function getWidth() : string 
     {
         return $this->width;
     }
+    /**
+     * @return string
+     */
     public function getHeight() : string 
     {
         return $this->height;
     }
+    /**
+     * @return int
+     */
     public function getSquare() : int 
     {
         return ($this->width * $this->height);
     }
+    /**
+     * @return int
+     */
     public function getPerimeter() : int 
     {
         return (2 * ($this->width + $this->height));
