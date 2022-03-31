@@ -20,11 +20,7 @@ class Student
     {
         
         $this->name = $name;
-        if ($this->isCourseCorrect($course)) {
-            $this->course = $course;
-        } else {
-            $this->course = 1;
-        }
+        $this->course = $this->isCourseCorrect($course) ? $course : 1;
        
     }
     /**
