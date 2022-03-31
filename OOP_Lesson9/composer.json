@@ -1,0 +1,9 @@
+{
+    "name": "root/homework",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Class\\" : "."
+        }
+    }
+}

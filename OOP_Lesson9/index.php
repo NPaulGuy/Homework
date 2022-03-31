@@ -1,4 +1,7 @@
 <?php
+require __DIR__ . '/vendor/autoload.php';
+use \Class\Employee;
+use \Class\User;
 /**
  * Сделайте несколько классов в разных файлах. Подключите ваши классы к файлу index.php. 
  */
