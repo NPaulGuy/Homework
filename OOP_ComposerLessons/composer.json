@@ -3,7 +3,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Lesson11\\":"Lesson11/src/"
+            "Lesson11\\":"Lesson11/src/",
+            "Lesson12\\":"Lesson12/src/"
         }
     }
 }
