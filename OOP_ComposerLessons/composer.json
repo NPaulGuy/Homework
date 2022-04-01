@@ -1,0 +1,9 @@
+{
+    "name": "root/composer-lessons",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lesson11\\":"Lesson11/src/"
+        }
+    }
+}
