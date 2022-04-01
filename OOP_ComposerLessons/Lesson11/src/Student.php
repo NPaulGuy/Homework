@@ -13,10 +13,8 @@ class Student
      */
     public function __construct(string $name) 
     {
-        
         $this->name = $name;
         $this->course = 1;
-       
     }
     /**
      * @return string
