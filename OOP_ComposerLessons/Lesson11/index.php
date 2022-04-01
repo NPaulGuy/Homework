@@ -13,3 +13,4 @@ while ($student->getCourse() < 5) {
     $student->transferToNextCourse();
 }
 $student->transferToNextCourse();
+$student->getCourse();

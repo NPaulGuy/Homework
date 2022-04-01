@@ -7,14 +7,15 @@ class Student
 {
     private string $name;
     private int $course;
+    private bool $graduate;
     /**
      * @param string $name
-     * @param int $course
      */
     public function __construct(string $name) 
     {
         $this->name = $name;
         $this->course = 1;
+        $this->graduate = false;
     }
     /**
      * @return string
@@ -24,22 +25,37 @@ class Student
         return $this->name;
     }
     /**
-     * @return int
+     * @return int|null
      */
-    public function getCourse() : int 
+    public function getCourse() : ?int 
     {
-        return $this->course;
+        // Если студент - выпускник, то сообщаем об этом пользователю.
+        if ($this->graduate) {
+            echo $this->name . " - выпускник!";
+            return null;
+        } else {
+            // Если студент - не выпускник, возвращаем текущий курс студента.
+            return $this->course;
+        }
     }
     /**
      * @return Student
      */
     public function transferToNextCourse() : Student
     {
+        // Создаём переменную, содержащую текущий курс, увеличенный на 1.
         $newCourse = $this->course + 1;
-        if ($this->isCourseCorrect($newCourse)) {
-            $this->course = $newCourse;
-        } else {
+        if (!($this->isCourseCorrect($newCourse))) {
+            // Если курс максимальный, проверяем, является ли студент выпускником.
+            // Если нет, то делаем студента выпускником.
+            if (!$this->graduate) {
+                $this->graduate = true;
+            }
+            // Сообщаем, что студент - выпускник.
             echo $this->name . " - выпускник!";
+        } else {
+            // Если курс не максимальный, то заносим в course новое значение.
+            $this->course = $newCourse;
         }
         return $this;
     }
