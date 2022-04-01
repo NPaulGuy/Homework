@@ -1,5 +1,5 @@
 <?php
-namespace Class;
+namespace App;
 /**
  * [Description User]
  */
