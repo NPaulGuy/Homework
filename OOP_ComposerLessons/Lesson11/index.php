@@ -9,4 +9,7 @@ use \Lesson11\Student;
 
 $student = new Student("Kirill");
 echo $student->getCourse() . "<br>";
-echo $student->transferToNextCourse()->getCourse();
+while ($student->getCourse() < 5) {
+    $student->transferToNextCourse();
+}
+$student->transferToNextCourse();

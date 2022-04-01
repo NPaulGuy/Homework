@@ -38,6 +38,8 @@ class Student
         $newCourse = $this->course + 1;
         if ($this->isCourseCorrect($newCourse)) {
             $this->course = $newCourse;
+        } else {
+            echo $this->name . " - выпускник!";
         }
         return $this;
     }
