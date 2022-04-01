@@ -9,15 +9,34 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson14\\' => 9,
+            'Lesson13\\' => 9,
+            'Lesson12\\' => 9,
             'Lesson11\\' => 9,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson14\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson14/src',
+        ),
+        'Lesson13\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson13/src',
+        ),
+        'Lesson12\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson12/src',
+        ),
         'Lesson11\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson11/src',
         ),
+    );
+
+    public static $classMap = array (
+        'Lesson14\\User' => __DIR__ . '/../..' . '/Lesson14/src/User.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
@@ -25,6 +44,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInita580d9590d33159a91396d33402cd8e9::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInita580d9590d33159a91396d33402cd8e9::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInita580d9590d33159a91396d33402cd8e9::$classMap;
 
         }, null, ClassLoader::class);
     }
