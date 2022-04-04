@@ -21,4 +21,6 @@ return array(
     'Lesson18\\User' => $baseDir . '/Lesson18/src/User.php',
     'Lesson19\\Student' => $baseDir . '/Lesson19/src/Student.php',
     'Lesson19\\User' => $baseDir . '/Lesson19/src/User.php',
+    'Lesson20\\Student' => $baseDir . '/Lesson20/src/Student.php',
+    'Lesson20\\User' => $baseDir . '/Lesson20/src/User.php',
 );
