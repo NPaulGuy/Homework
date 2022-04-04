@@ -12,5 +12,11 @@ return array(
     'Lesson13\\User' => $baseDir . '/Lesson13/src/User.php',
     'Lesson14\\User' => $baseDir . '/Lesson14/src/User.php',
     'Lesson15\\Arr' => $baseDir . '/Lesson15/src/Arr.php',
+    'Lesson16\\Arr' => $baseDir . '/Lesson16/src/Arr.php',
     'Lesson17\\ArrayAvgHelper' => $baseDir . '/Lesson17/src/ArrayAvgHelper.php',
+    'Lesson18\\Driver' => $baseDir . '/Lesson18/src/Driver.php',
+    'Lesson18\\Employee' => $baseDir . '/Lesson18/src/Employee.php',
+    'Lesson18\\Programmer' => $baseDir . '/Lesson18/src/Programmer.php',
+    'Lesson18\\Student' => $baseDir . '/Lesson18/src/Student.php',
+    'Lesson18\\User' => $baseDir . '/Lesson18/src/User.php',
 );
