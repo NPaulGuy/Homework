@@ -10,6 +10,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'L' => 
         array (
             'Lesson18\\' => 9,
+            'Lesson16\\' => 9,
             'Lesson15\\' => 9,
             'Lesson14\\' => 9,
             'Lesson13\\' => 9,
@@ -22,6 +23,9 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson18\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson18/src',
+        'Lesson16\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson16/src',
         ),
         'Lesson15\\' => 
         array (
@@ -52,6 +56,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson13\\User' => __DIR__ . '/../..' . '/Lesson13/src/User.php',
         'Lesson14\\User' => __DIR__ . '/../..' . '/Lesson14/src/User.php',
         'Lesson15\\Arr' => __DIR__ . '/../..' . '/Lesson15/src/Arr.php',
+        'Lesson16\\Arr' => __DIR__ . '/../..' . '/Lesson16/src/Arr.php',
         'Lesson18\\Driver' => __DIR__ . '/../..' . '/Lesson18/src/Driver.php',
         'Lesson18\\Employee' => __DIR__ . '/../..' . '/Lesson18/src/Employee.php',
         'Lesson18\\Programmer' => __DIR__ . '/../..' . '/Lesson18/src/Programmer.php',
