@@ -6,13 +6,13 @@ namespace Lesson15;
 class Arr
 {
 	private $numbers = [];
-    /**
-     * @param array $numbers
-     */
-    public function __construct(array $numbers) 
-    {
-        $this->numbers = $numbers;
-    }
+	/**
+	 * @param array $numbers
+	 */
+	public function __construct(array $numbers) 
+	{
+		$this->numbers = $numbers;
+	}
 	/**
 	 * @param int $num
 	 * 
@@ -20,8 +20,8 @@ class Arr
 	 */
 	public function add(int $num) : Arr
 	{
-        $this->numbers[] = $num;
-        return $this;
+		$this->numbers[] = $num;
+		return $this;
 	}
 	/**
 	 * @return int
@@ -30,4 +30,4 @@ class Arr
 	{
 		return array_sum($this->numbers);
 	}
-}	
+}
