@@ -10,7 +10,7 @@ class ArrayAvgHelper
 	 * 
 	 * @return float
 	 */
-	public function getAvg1(array $arr)  : float
+	public function getAvg1(array $arr) : float
 	{
 		return $this->getSum($arr, 1);
 	}
