@@ -6,11 +6,11 @@ namespace Lesson18;
 class Employee extends User
 {
 	protected int $salary;
-    public function __construct(string $name, int $age, int $salary)
-    {
-        parent::__construct($name, $age);
-        $this->salary = $salary;
-    }
+	public function __construct(string $name, int $age, int $salary)
+	{
+		parent::__construct($name, $age);
+		$this->salary = $salary;
+	}
 	/**
 	 * @return int
 	 */

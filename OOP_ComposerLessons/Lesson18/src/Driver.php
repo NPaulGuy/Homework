@@ -6,25 +6,25 @@ namespace Lesson18;
 class Driver extends Employee
 {
 	private int $driveAge;
-    private string $category;
-    /**
-     * @param string $name
-     * @param int $age
-     * @param int $salary
-     * @param int $driveAge
-     * @param string $category
-     */
-    public function __construct(
-        string $name, 
-        int $age, 
-        int $salary, 
-        int $driveAge, 
-        string $category
-    ) {
-        parent::__construct($name, $age, $salary);
-        $this->driveAge = $driveAge;
-        $this->category = $category;
-    }
+	private string $category;
+	/**
+	 * @param string $name
+	 * @param int $age
+	 * @param int $salary
+	 * @param int $driveAge
+	 * @param string $category
+	 */
+	public function __construct(
+		string $name, 
+		int $age, 
+		int $salary, 
+		int $driveAge, 
+		string $category
+	) {
+		parent::__construct($name, $age, $salary);
+		$this->driveAge = $driveAge;
+		$this->category = $category;
+	}
 	/**
 	 * @return int
 	 */
@@ -42,10 +42,10 @@ class Driver extends Employee
 		$this->driveAge = $driveAge;
 		return $this;
 	}
-    /**
-     * @return string
-     */
-    public function getCategory() : string
+	/**
+	 * @return string
+	 */
+	public function getCategory() : string
 	{
 		return $this->category;
 	}

@@ -6,11 +6,11 @@ namespace Lesson18;
 class Student extends User
 {
 	protected int $course;
-    public function __construct(string $name, int $age, int $course)
-    {
-        parent::__construct($name, $age);
-        $this->course = $course;
-    }
+	public function __construct(string $name, int $age, int $course)
+	{
+		parent::__construct($name, $age);
+		$this->course = $course;
+	}
 	/**
 	 * @return int
 	 */
