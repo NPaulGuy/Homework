@@ -25,14 +25,15 @@ class Student
         return $this->name;
     }
     /**
-     * @return int|null
+     * @return ?int
      */
-    public function getCourse() : ?int 
+    public function getCourse() : int 
     {
         // Если студент - выпускник, то сообщаем об этом пользователю.
         if ($this->graduate) {
             echo $this->name . " - выпускник!";
-            return null;
+            // Возвращаем ноль, т.к. студент уже выпустился.
+            return 0;
         } else {
             // Если студент - не выпускник, возвращаем текущий курс студента.
             return $this->course;
