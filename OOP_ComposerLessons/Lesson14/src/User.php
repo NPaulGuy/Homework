@@ -7,7 +7,6 @@ class User
 {
 	private string $name;
 	private int $age; 
-		
 	/**
 	 * @param string $name
 	 * @param int $age
@@ -17,18 +16,12 @@ class User
 		$this->name = $name;
 		$this->age = $age;
 	}
-    /**
-     * @return string
-     */
-    public function getName() : string 
-    {
-        return $this->name;
-    }
-    /**
-     * @return string
-     */
-    public function getAge() : string 
-    {
-        return $this->age;
-    }
+	public function getName() : string 
+	{
+		return $this->name;
+	}
+	public function getAge() : string 
+	{
+		return $this->age;
+	}
 }
