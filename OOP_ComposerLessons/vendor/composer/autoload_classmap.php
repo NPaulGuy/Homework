@@ -19,4 +19,6 @@ return array(
     'Lesson18\\Programmer' => $baseDir . '/Lesson18/src/Programmer.php',
     'Lesson18\\Student' => $baseDir . '/Lesson18/src/Student.php',
     'Lesson18\\User' => $baseDir . '/Lesson18/src/User.php',
+    'Lesson19\\Student' => $baseDir . '/Lesson19/src/Student.php',
+    'Lesson19\\User' => $baseDir . '/Lesson19/src/User.php',
 );
