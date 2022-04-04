@@ -5,9 +5,9 @@ namespace Lesson13;
  */
 class User
 {
-	private string $surname; // фамилия
-	private string $name; // имя
-	private string $patronymic; // отчество
+	private string $surname; 
+	private string $name; 
+	private string $patronymic; 
 		
 	/**
 	 * @param mixed $surname
@@ -44,15 +44,15 @@ class User
     /**
      * @param string $fieldName
      * 
-     * @return mixed
+     * @return string
      */
-    public function getField(string $fieldName) 
+    public function getField(string $fieldName) : string
     {
         if (isset($this->$fieldName)) {
             return $this->$fieldName;
         } else {
             echo "Error! Entered field name doesn't exists!";
-            return null;
+            return "";
         }
     }
 }

@@ -11,7 +11,7 @@ class City
     /**
      * @param string $name
      * @param string $foundation
-     * @param string $population
+     * @param int $population
      */
     public function __construct(
         string $name, 
@@ -37,32 +37,32 @@ class City
         return $this->foundation;
     }
     /**
-     * @return string
+     * @return int
      */
-    public function getPopulation() : string 
+    public function getPopulation() : int 
     {
         return $this->population;
     }
     /**
      * @param string $fieldName
      * 
-     * @return mixed
+     * @return string
      */
-    public function getField(string $fieldName) 
+    public function getField(string $fieldName) : string 
     {
         if (isset($this->$fieldName)) {
             return $this->$fieldName;
         } else {
             echo "Error! Entered field name doesn't exists!";
-            return null;
+            return "";
         }
     }
     /**
      * @param string $date
      * 
-     * @return string|null
+     * @return string
      */
-    private function foundationFilter(string $date) : ?string
+    private function foundationFilter(string $date) : string
     {
         // Регул. выражение для проверки корректности формата даты.
         $pattern = "#^([0-9]{4})-([0-9]{2})-([0-9]{2})$#";
@@ -84,8 +84,8 @@ class City
             $filteredDate = $parts[1] . "-" . $parts[2] . "-" . $parts[3];
             return $filteredDate;
         } else {
-            // Если дата некорректна, то возвращаем false.
-            return false;
+            // Если дата некорректна, то возвращаем пустую строку.
+            return "";
         }
     }
 }
