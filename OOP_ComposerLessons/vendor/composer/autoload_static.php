@@ -9,6 +9,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson21\\' => 9,
             'Lesson20\\' => 9,
             'Lesson19\\' => 9,
             'Lesson18\\' => 9,
@@ -23,6 +24,10 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson21\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson21/src',
+        ),
         'Lesson20\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson20/src',
