@@ -1,21 +1,22 @@
 {
-	"name": "root/composer-lessons",
-	"require": {},
-	"autoload": {
-		"psr-4": {
-			"Lesson11\\":"Lesson11/src/",
-			"Lesson12\\":"Lesson12/src/",
-			"Lesson13\\":"Lesson13/src/",
-			"Lesson14\\":"Lesson14/src/",
-			"Lesson15\\":"Lesson15/src/",
-			"Lesson16\\":"Lesson16/src/",
-			"Lesson17\\":"Lesson17/src/",
-			"Lesson18\\":"Lesson18/src/",
-			"Lesson19\\":"Lesson19/src/",
-			"Lesson20\\":"Lesson20/src/",
-			"Lesson21\\":"Lesson21/src/",
-      "Lesson22\\":"Lesson22/src/",
-			"Lesson23\\":"Lesson23/src/"
-		}
-	}
+    "name": "root/composer-lessons",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lesson11\\":"Lesson11/src/",
+            "Lesson12\\":"Lesson12/src/",
+            "Lesson13\\":"Lesson13/src/",
+            "Lesson14\\":"Lesson14/src/",
+            "Lesson15\\":"Lesson15/src/",
+            "Lesson16\\":"Lesson16/src/",
+            "Lesson17\\":"Lesson17/src/",
+            "Lesson18\\":"Lesson18/src/",
+            "Lesson19\\":"Lesson19/src/",
+            "Lesson20\\":"Lesson20/src/",
+            "Lesson21\\":"Lesson21/src/",
+            "Lesson22\\":"Lesson22/src/",
+            "Lesson23\\":"Lesson23/src/",
+            "Lesson24\\":"Lesson24/src/"
+        }
+    }
 }
