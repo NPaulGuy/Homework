@@ -9,6 +9,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson31\\' => 9,
             'Lesson25\\' => 9,
             'Lesson24\\' => 9,
             'Lesson23\\' => 9,
@@ -28,9 +29,14 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson31\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson31/src',
+        ),
         'Lesson25\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson25/src',
+        ),
         'Lesson24\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson24/src',
@@ -119,6 +125,9 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson25\\Disk' => __DIR__ . '/../..' . '/Lesson25/src/Disk.php',
         'Lesson25\\Figure' => __DIR__ . '/../..' . '/Lesson25/src/Figure.php',
         'Lesson25\\FiguresCollection' => __DIR__ . '/../..' . '/Lesson25/src/FiguresCollection.php',
+        'Lesson31\\Employee' => __DIR__ . '/../..' . '/Lesson31/src/Employee.php',
+        'Lesson31\\Programmer' => __DIR__ . '/../..' . '/Lesson31/src/Programmer.php',
+        'Lesson31\\iProgrammer' => __DIR__ . '/../..' . '/Lesson31/src/iProgrammer.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
