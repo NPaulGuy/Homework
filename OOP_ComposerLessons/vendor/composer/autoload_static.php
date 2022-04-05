@@ -9,6 +9,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson29\\' => 9,
             'Lesson25\\' => 9,
             'Lesson24\\' => 9,
             'Lesson23\\' => 9,
@@ -28,9 +29,14 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson29\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson29/src',
+        ),
         'Lesson25\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson25/src',
+        ),
         'Lesson24\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson24/src',
@@ -119,6 +125,11 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson25\\Disk' => __DIR__ . '/../..' . '/Lesson25/src/Disk.php',
         'Lesson25\\Figure' => __DIR__ . '/../..' . '/Lesson25/src/Figure.php',
         'Lesson25\\FiguresCollection' => __DIR__ . '/../..' . '/Lesson25/src/FiguresCollection.php',
+        'Lesson29\\Cube' => __DIR__ . '/../..' . '/Lesson29/src/Cube.php',
+        'Lesson29\\Figure3d' => __DIR__ . '/../..' . '/Lesson29/src/Figure3d.php',
+        'Lesson29\\Quadrate' => __DIR__ . '/../..' . '/Lesson29/src/Quadrate.php',
+        'Lesson29\\Rectangle' => __DIR__ . '/../..' . '/Lesson29/src/Rectangle.php',
+        'Lesson29\\iFigure' => __DIR__ . '/../..' . '/Lesson29/src/iFigure.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

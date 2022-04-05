@@ -35,4 +35,9 @@ return array(
     'Lesson25\\Disk' => $baseDir . '/Lesson25/src/Disk.php',
     'Lesson25\\Figure' => $baseDir . '/Lesson25/src/Figure.php',
     'Lesson25\\FiguresCollection' => $baseDir . '/Lesson25/src/FiguresCollection.php',
+    'Lesson29\\Cube' => $baseDir . '/Lesson29/src/Cube.php',
+    'Lesson29\\Figure3d' => $baseDir . '/Lesson29/src/Figure3d.php',
+    'Lesson29\\Quadrate' => $baseDir . '/Lesson29/src/Quadrate.php',
+    'Lesson29\\Rectangle' => $baseDir . '/Lesson29/src/Rectangle.php',
+    'Lesson29\\iFigure' => $baseDir . '/Lesson29/src/iFigure.php',
 );
