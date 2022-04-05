@@ -10,6 +10,8 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'L' => 
         array (
             'Lesson28\\' => 9,
+            'Lesson27\\' => 9,
+            'Lesson26\\' => 9,
             'Lesson25\\' => 9,
             'Lesson24\\' => 9,
             'Lesson23\\' => 9,
@@ -32,6 +34,12 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson28\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson28/src',
+        'Lesson27\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson27/src',
+        'Lesson26\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson26/src',
         ),
         'Lesson25\\' => 
         array (
@@ -125,6 +133,12 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson25\\Disk' => __DIR__ . '/../..' . '/Lesson25/src/Disk.php',
         'Lesson25\\Figure' => __DIR__ . '/../..' . '/Lesson25/src/Figure.php',
         'Lesson25\\FiguresCollection' => __DIR__ . '/../..' . '/Lesson25/src/FiguresCollection.php',
+        'Lesson26\\User' => __DIR__ . '/../..' . '/Lesson26/src/User.php',
+        'Lesson26\\iUser' => __DIR__ . '/../..' . '/Lesson26/src/iUser.php',
+        'Lesson27\\Cube' => __DIR__ . '/../..' . '/Lesson27/src/Cube.php',
+        'Lesson27\\User' => __DIR__ . '/../..' . '/Lesson27/src/User.php',
+        'Lesson27\\iCube' => __DIR__ . '/../..' . '/Lesson27/src/iCube.php',
+        'Lesson27\\iUser' => __DIR__ . '/../..' . '/Lesson27/src/iUser.php',
         'Lesson28\\Employee' => __DIR__ . '/../..' . '/Lesson28/src/Employee.php',
         'Lesson28\\iEmployee' => __DIR__ . '/../..' . '/Lesson28/src/iEmployee.php',
         'Lesson28\\iUser' => __DIR__ . '/../..' . '/Lesson28/src/iUser.php',
