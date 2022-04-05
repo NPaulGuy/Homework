@@ -49,4 +49,6 @@ return array(
     'Lesson29\\Quadrate' => $baseDir . '/Lesson29/src/Quadrate.php',
     'Lesson29\\Rectangle' => $baseDir . '/Lesson29/src/Rectangle.php',
     'Lesson29\\iFigure' => $baseDir . '/Lesson29/src/iFigure.php',
+    'Lesson30\\Disk' => $baseDir . '/Lesson30/src/Disk.php',
+    'Lesson30\\Rectangle' => $baseDir . '/Lesson30/src/Rectangle.php',
 );
