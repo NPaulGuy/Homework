@@ -51,4 +51,7 @@ return array(
     'Lesson29\\iFigure' => $baseDir . '/Lesson29/src/iFigure.php',
     'Lesson30\\Disk' => $baseDir . '/Lesson30/src/Disk.php',
     'Lesson30\\Rectangle' => $baseDir . '/Lesson30/src/Rectangle.php',
+    'Lesson31\\Employee' => $baseDir . '/Lesson31/src/Employee.php',
+    'Lesson31\\Programmer' => $baseDir . '/Lesson31/src/Programmer.php',
+    'Lesson31\\iProgrammer' => $baseDir . '/Lesson31/src/iProgrammer.php',
 );
