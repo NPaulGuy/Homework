@@ -23,4 +23,10 @@ return array(
     'Lesson19\\User' => $baseDir . '/Lesson19/src/User.php',
     'Lesson20\\Student' => $baseDir . '/Lesson20/src/Student.php',
     'Lesson20\\User' => $baseDir . '/Lesson20/src/User.php',
+    'Lesson21\\Employee' => $baseDir . '/Lesson21/src/Employee.php',
+    'Lesson21\\Student' => $baseDir . '/Lesson21/src/Student.php',
+    'Lesson21\\User' => $baseDir . '/Lesson21/src/User.php',
+    'Lesson23\\Arr' => $baseDir . '/Lesson23/src/Arr.php',
+    'Lesson23\\AvgHelper' => $baseDir . '/Lesson23/src/AvgHelper.php',
+    'Lesson23\\SumHelper' => $baseDir . '/Lesson23/src/SumHelper.php',
 );

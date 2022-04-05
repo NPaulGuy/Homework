@@ -9,6 +9,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson23\\' => 9,
             'Lesson21\\' => 9,
             'Lesson20\\' => 9,
             'Lesson19\\' => 9,
@@ -24,6 +25,10 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson23\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson23/src',
+        ),
         'Lesson21\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson21/src',
@@ -88,6 +93,12 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson19\\User' => __DIR__ . '/../..' . '/Lesson19/src/User.php',
         'Lesson20\\Student' => __DIR__ . '/../..' . '/Lesson20/src/Student.php',
         'Lesson20\\User' => __DIR__ . '/../..' . '/Lesson20/src/User.php',
+        'Lesson21\\Employee' => __DIR__ . '/../..' . '/Lesson21/src/Employee.php',
+        'Lesson21\\Student' => __DIR__ . '/../..' . '/Lesson21/src/Student.php',
+        'Lesson21\\User' => __DIR__ . '/../..' . '/Lesson21/src/User.php',
+        'Lesson23\\Arr' => __DIR__ . '/../..' . '/Lesson23/src/Arr.php',
+        'Lesson23\\AvgHelper' => __DIR__ . '/../..' . '/Lesson23/src/AvgHelper.php',
+        'Lesson23\\SumHelper' => __DIR__ . '/../..' . '/Lesson23/src/SumHelper.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
