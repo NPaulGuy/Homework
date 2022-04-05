@@ -41,4 +41,7 @@ return array(
     'Lesson27\\User' => $baseDir . '/Lesson27/src/User.php',
     'Lesson27\\iCube' => $baseDir . '/Lesson27/src/iCube.php',
     'Lesson27\\iUser' => $baseDir . '/Lesson27/src/iUser.php',
+    'Lesson28\\Employee' => $baseDir . '/Lesson28/src/Employee.php',
+    'Lesson28\\iEmployee' => $baseDir . '/Lesson28/src/iEmployee.php',
+    'Lesson28\\iUser' => $baseDir . '/Lesson28/src/iUser.php',
 );
