@@ -44,4 +44,9 @@ return array(
     'Lesson28\\Employee' => $baseDir . '/Lesson28/src/Employee.php',
     'Lesson28\\iEmployee' => $baseDir . '/Lesson28/src/iEmployee.php',
     'Lesson28\\iUser' => $baseDir . '/Lesson28/src/iUser.php',
+    'Lesson29\\Cube' => $baseDir . '/Lesson29/src/Cube.php',
+    'Lesson29\\Figure3d' => $baseDir . '/Lesson29/src/Figure3d.php',
+    'Lesson29\\Quadrate' => $baseDir . '/Lesson29/src/Quadrate.php',
+    'Lesson29\\Rectangle' => $baseDir . '/Lesson29/src/Rectangle.php',
+    'Lesson29\\iFigure' => $baseDir . '/Lesson29/src/iFigure.php',
 );
