@@ -35,4 +35,8 @@ return array(
     'Lesson25\\Disk' => $baseDir . '/Lesson25/src/Disk.php',
     'Lesson25\\Figure' => $baseDir . '/Lesson25/src/Figure.php',
     'Lesson25\\FiguresCollection' => $baseDir . '/Lesson25/src/FiguresCollection.php',
+    'Lesson27\\Cube' => $baseDir . '/Lesson27/src/Cube.php',
+    'Lesson27\\User' => $baseDir . '/Lesson27/src/User.php',
+    'Lesson27\\iCube' => $baseDir . '/Lesson27/src/iCube.php',
+    'Lesson27\\iUser' => $baseDir . '/Lesson27/src/iUser.php',
 );
