@@ -32,4 +32,7 @@ return array(
     'Lesson23\\SumHelper' => $baseDir . '/Lesson23/src/SumHelper.php',
     'Lesson24\\Disk' => $baseDir . '/Lesson24/src/Disk.php',
     'Lesson24\\Figure' => $baseDir . '/Lesson24/src/Figure.php',
+    'Lesson25\\Disk' => $baseDir . '/Lesson25/src/Disk.php',
+    'Lesson25\\Figure' => $baseDir . '/Lesson25/src/Figure.php',
+    'Lesson25\\FiguresCollection' => $baseDir . '/Lesson25/src/FiguresCollection.php',
 );
