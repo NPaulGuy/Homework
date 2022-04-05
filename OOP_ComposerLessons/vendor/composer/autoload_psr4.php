@@ -7,6 +7,9 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Lesson29\\' => array($baseDir . '/Lesson29/src'),
+    'Lesson28\\' => array($baseDir . '/Lesson28/src'),
+    'Lesson27\\' => array($baseDir . '/Lesson27/src'),
+    'Lesson26\\' => array($baseDir . '/Lesson26/src'),
     'Lesson25\\' => array($baseDir . '/Lesson25/src'),
     'Lesson24\\' => array($baseDir . '/Lesson24/src'),
     'Lesson23\\' => array($baseDir . '/Lesson23/src'),
