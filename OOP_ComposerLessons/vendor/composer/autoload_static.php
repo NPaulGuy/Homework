@@ -10,6 +10,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'L' => 
         array (
             'Lesson23\\' => 9,
+            'Lesson22\\' => 9,
             'Lesson21\\' => 9,
             'Lesson20\\' => 9,
             'Lesson19\\' => 9,
@@ -28,6 +29,9 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson23\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson23/src',
+        'Lesson22\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson22/src',
         ),
         'Lesson21\\' => 
         array (
@@ -96,6 +100,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson21\\Employee' => __DIR__ . '/../..' . '/Lesson21/src/Employee.php',
         'Lesson21\\Student' => __DIR__ . '/../..' . '/Lesson21/src/Student.php',
         'Lesson21\\User' => __DIR__ . '/../..' . '/Lesson21/src/User.php',
+        'Lesson22\\Product' => __DIR__ . '/../..' . '/Lesson22/src/Product.php',
         'Lesson23\\Arr' => __DIR__ . '/../..' . '/Lesson23/src/Arr.php',
         'Lesson23\\AvgHelper' => __DIR__ . '/../..' . '/Lesson23/src/AvgHelper.php',
         'Lesson23\\SumHelper' => __DIR__ . '/../..' . '/Lesson23/src/SumHelper.php',
