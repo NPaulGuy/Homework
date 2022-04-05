@@ -27,4 +27,7 @@ return array(
     'Lesson21\\Student' => $baseDir . '/Lesson21/src/Student.php',
     'Lesson21\\User' => $baseDir . '/Lesson21/src/User.php',
     'Lesson22\\Product' => $baseDir . '/Lesson22/src/Product.php',
+    'Lesson23\\Arr' => $baseDir . '/Lesson23/src/Arr.php',
+    'Lesson23\\AvgHelper' => $baseDir . '/Lesson23/src/AvgHelper.php',
+    'Lesson23\\SumHelper' => $baseDir . '/Lesson23/src/SumHelper.php',
 );
