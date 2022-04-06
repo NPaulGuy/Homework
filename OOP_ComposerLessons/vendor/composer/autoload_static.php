@@ -10,6 +10,8 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'L' => 
         array (
             'Lesson34\\' => 9,
+            'Lesson33\\' => 9,
+            'Lesson32\\' => 9,
             'Lesson31\\' => 9,
             'Lesson30\\' => 9,
             'Lesson29\\' => 9,
@@ -38,6 +40,12 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson34\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson34/src',
+        'Lesson33\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson33/src',
+        'Lesson32\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson32/src',
         ),
         'Lesson31\\' => 
         array (
@@ -177,6 +185,9 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson31\\Employee' => __DIR__ . '/../..' . '/Lesson31/src/Employee.php',
         'Lesson31\\Programmer' => __DIR__ . '/../..' . '/Lesson31/src/Programmer.php',
         'Lesson31\\iProgrammer' => __DIR__ . '/../..' . '/Lesson31/src/iProgrammer.php',
+        'Lesson32\\Sphere' => __DIR__ . '/../..' . '/Lesson32/src/Sphere.php',
+        'Lesson32\\iSphere' => __DIR__ . '/../..' . '/Lesson32/src/iSphere.php',
+        'Lesson33\\iTest1' => __DIR__ . '/../..' . '/Lesson33/src/iTest1.php',
         'Lesson34\\Country' => __DIR__ . '/../..' . '/Lesson34/src/Country.php',
         'Lesson34\\Helper' => __DIR__ . '/../..' . '/Lesson34/src/Helper.php',
         'Lesson34\\Test' => __DIR__ . '/../..' . '/Lesson34/src/Test.php',
