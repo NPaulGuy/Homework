@@ -59,6 +59,7 @@ return array(
     'Lesson31\\iProgrammer' => $baseDir . '/Lesson31/src/iProgrammer.php',
     'Lesson32\\Sphere' => $baseDir . '/Lesson32/src/Sphere.php',
     'Lesson32\\iSphere' => $baseDir . '/Lesson32/src/iSphere.php',
+    'Lesson33\\Test1' => $baseDir . '/Lesson33/src/Test1.php',
     'Lesson33\\iTest1' => $baseDir . '/Lesson33/src/iTest1.php',
     'Lesson34\\Country' => $baseDir . '/Lesson34/src/Country.php',
     'Lesson34\\Helper' => $baseDir . '/Lesson34/src/Helper.php',
@@ -76,4 +77,6 @@ return array(
     'Lesson37\\Trait1' => $baseDir . '/Lesson37/src/Trait1.php',
     'Lesson37\\Trait2' => $baseDir . '/Lesson37/src/Trait2.php',
     'Lesson38\\Trait1' => $baseDir . '/Lesson38/src/Trait1.php',
+    'Lesson39\\Arr' => $baseDir . '/Lesson39/src/Arr.php',
+    'Lesson39\\User' => $baseDir . '/Lesson39/src/User.php',
 );
