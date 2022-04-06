@@ -59,4 +59,5 @@ return array(
     'Lesson31\\iProgrammer' => $baseDir . '/Lesson31/src/iProgrammer.php',
     'Lesson32\\Sphere' => $baseDir . '/Lesson32/src/Sphere.php',
     'Lesson32\\iSphere' => $baseDir . '/Lesson32/src/iSphere.php',
+    'Lesson33\\iTest1' => $baseDir . '/Lesson33/src/iTest1.php',
 );
