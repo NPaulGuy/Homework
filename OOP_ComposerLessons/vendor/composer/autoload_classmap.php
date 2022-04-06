@@ -57,5 +57,7 @@ return array(
     'Lesson31\\Employee' => $baseDir . '/Lesson31/src/Employee.php',
     'Lesson31\\Programmer' => $baseDir . '/Lesson31/src/Programmer.php',
     'Lesson31\\iProgrammer' => $baseDir . '/Lesson31/src/iProgrammer.php',
+    'Lesson32\\Sphere' => $baseDir . '/Lesson32/src/Sphere.php',
+    'Lesson32\\iSphere' => $baseDir . '/Lesson32/src/iSphere.php',
     'Lesson33\\iTest1' => $baseDir . '/Lesson33/src/iTest1.php',
 );
