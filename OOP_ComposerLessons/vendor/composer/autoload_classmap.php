@@ -75,4 +75,5 @@ return array(
     'Lesson37\\Test' => $baseDir . '/Lesson37/src/Test.php',
     'Lesson37\\Trait1' => $baseDir . '/Lesson37/src/Trait1.php',
     'Lesson37\\Trait2' => $baseDir . '/Lesson37/src/Trait2.php',
+    'Lesson38\\Trait1' => $baseDir . '/Lesson38/src/Trait1.php',
 );
