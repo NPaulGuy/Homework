@@ -9,6 +9,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson39\\' => 9,
             'Lesson38\\' => 9,
             'Lesson37\\' => 9,
             'Lesson36\\' => 9,
@@ -41,24 +42,34 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson39\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson39/src',
+        ),
         'Lesson38\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson38/src',
+        ),
         'Lesson37\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson37/src',
+        ),
         'Lesson36\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson36/src',
+        ),
         'Lesson35\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson35/src',
+        ),
         'Lesson34\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson34/src',
+        ),
         'Lesson33\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson33/src',
+        ),
         'Lesson32\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson32/src',
@@ -203,6 +214,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson31\\iProgrammer' => __DIR__ . '/../..' . '/Lesson31/src/iProgrammer.php',
         'Lesson32\\Sphere' => __DIR__ . '/../..' . '/Lesson32/src/Sphere.php',
         'Lesson32\\iSphere' => __DIR__ . '/../..' . '/Lesson32/src/iSphere.php',
+        'Lesson33\\Test1' => __DIR__ . '/../..' . '/Lesson33/src/Test1.php',
         'Lesson33\\iTest1' => __DIR__ . '/../..' . '/Lesson33/src/iTest1.php',
         'Lesson34\\Country' => __DIR__ . '/../..' . '/Lesson34/src/Country.php',
         'Lesson34\\Helper' => __DIR__ . '/../..' . '/Lesson34/src/Helper.php',
@@ -220,6 +232,8 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson37\\Trait1' => __DIR__ . '/../..' . '/Lesson37/src/Trait1.php',
         'Lesson37\\Trait2' => __DIR__ . '/../..' . '/Lesson37/src/Trait2.php',
         'Lesson38\\Trait1' => __DIR__ . '/../..' . '/Lesson38/src/Trait1.php',
+        'Lesson39\\Arr' => __DIR__ . '/../..' . '/Lesson39/src/Arr.php',
+        'Lesson39\\User' => __DIR__ . '/../..' . '/Lesson39/src/User.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
