@@ -9,6 +9,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson34\\' => 9,
             'Lesson31\\' => 9,
             'Lesson30\\' => 9,
             'Lesson29\\' => 9,
@@ -34,21 +35,30 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson34\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson34/src',
+        ),
         'Lesson31\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson31/src',
+        ),
         'Lesson30\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson30/src',
+        ),
         'Lesson29\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson29/src',
+        ),
         'Lesson28\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson28/src',
+        ),
         'Lesson27\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson27/src',
+        ),
         'Lesson26\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson26/src',
@@ -161,9 +171,18 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson29\\iFigure' => __DIR__ . '/../..' . '/Lesson29/src/iFigure.php',
         'Lesson30\\Disk' => __DIR__ . '/../..' . '/Lesson30/src/Disk.php',
         'Lesson30\\Rectangle' => __DIR__ . '/../..' . '/Lesson30/src/Rectangle.php',
+        'Lesson30\\iCircle' => __DIR__ . '/../..' . '/Lesson30/src/iCircle.php',
+        'Lesson30\\iFigure' => __DIR__ . '/../..' . '/Lesson30/src/iFigure.php',
+        'Lesson30\\iTetragon' => __DIR__ . '/../..' . '/Lesson30/src/iTetragon.php',
         'Lesson31\\Employee' => __DIR__ . '/../..' . '/Lesson31/src/Employee.php',
         'Lesson31\\Programmer' => __DIR__ . '/../..' . '/Lesson31/src/Programmer.php',
         'Lesson31\\iProgrammer' => __DIR__ . '/../..' . '/Lesson31/src/iProgrammer.php',
+        'Lesson34\\Country' => __DIR__ . '/../..' . '/Lesson34/src/Country.php',
+        'Lesson34\\Helper' => __DIR__ . '/../..' . '/Lesson34/src/Helper.php',
+        'Lesson34\\Test' => __DIR__ . '/../..' . '/Lesson34/src/Test.php',
+        'Lesson34\\Trait1' => __DIR__ . '/../..' . '/Lesson34/src/Trait1.php',
+        'Lesson34\\Trait2' => __DIR__ . '/../..' . '/Lesson34/src/Trait2.php',
+        'Lesson34\\Trait3' => __DIR__ . '/../..' . '/Lesson34/src/Trait3.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
