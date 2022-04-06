@@ -72,4 +72,7 @@ return array(
     'Lesson35\\Trait3' => $baseDir . '/Lesson35/src/Trait3.php',
     'Lesson36\\Test' => $baseDir . '/Lesson36/src/Test.php',
     'Lesson36\\TestTrait' => $baseDir . '/Lesson36/src/TestTrait.php',
+    'Lesson37\\Test' => $baseDir . '/Lesson37/src/Test.php',
+    'Lesson37\\Trait1' => $baseDir . '/Lesson37/src/Trait1.php',
+    'Lesson37\\Trait2' => $baseDir . '/Lesson37/src/Trait2.php',
 );
