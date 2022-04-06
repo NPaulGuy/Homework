@@ -60,4 +60,10 @@ return array(
     'Lesson32\\Sphere' => $baseDir . '/Lesson32/src/Sphere.php',
     'Lesson32\\iSphere' => $baseDir . '/Lesson32/src/iSphere.php',
     'Lesson33\\iTest1' => $baseDir . '/Lesson33/src/iTest1.php',
+    'Lesson34\\Country' => $baseDir . '/Lesson34/src/Country.php',
+    'Lesson34\\Helper' => $baseDir . '/Lesson34/src/Helper.php',
+    'Lesson34\\Test' => $baseDir . '/Lesson34/src/Test.php',
+    'Lesson34\\Trait1' => $baseDir . '/Lesson34/src/Trait1.php',
+    'Lesson34\\Trait2' => $baseDir . '/Lesson34/src/Trait2.php',
+    'Lesson34\\Trait3' => $baseDir . '/Lesson34/src/Trait3.php',
 );
