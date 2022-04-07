@@ -5,11 +5,12 @@ class File implements iFile
 	private string $filePath;
 	public function __construct(string $filePath)
 	{
-		if (file_put_contents($filePath, "")) {
-			$this->filePath = $filePath;
-		} else {
-			die("Unable to create/open file!");
-		}
+		fopen($filePath, "w") or die("Unable to create/open file!");
+		$this->filePath = $filePath;
+	}
+	public function __destruct() 
+	{
+		echo "Файл $filePath удалён!<br>";
 	}
 	public function getPath() : string
 	{
@@ -29,7 +30,7 @@ class File implements iFile
 	}
 	public function getSize() : int
 	{
-		return count(file_get_contents($this->filePath));
+		return strlen(file_get_contents($this->filePath));
 	}
 	public function getText() : string
 	{
@@ -43,10 +44,12 @@ class File implements iFile
 	public function appendText($text) : iFile
 	{
 		file_put_contents($this->filePath, $text, FILE_APPEND);
+		return $this;
 	}
 	public function copy($copyPath) : string
 	{
 		copy($this->filePath, $copyPath) or die("Cannot copy file!");
+		return file_get_contents($copyPath);
 	}
 	public function delete()
 	{
@@ -62,7 +65,6 @@ class File implements iFile
 	public function replace($newPath) : iFile
 	{
 		rename($this->filePath, $newPath) or die("Cannot rename file!");
-		unlink($this->filePath)  or die("Cannot delete file!");
 		$this->filePath = $newPath;
 		return $this;
 	}
