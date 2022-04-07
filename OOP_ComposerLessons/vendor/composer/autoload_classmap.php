@@ -83,4 +83,6 @@ return array(
     'Lesson40\\User' => $baseDir . '/Lesson40/src/User.php',
     'Lesson41\\User' => $baseDir . '/Lesson41/src/User.php',
     'Lesson42\\Date' => $baseDir . '/Lesson42/src/Date.php',
+    'Lesson43\\Date' => $baseDir . '/Lesson43/src/Date.php',
+    'Lesson43\\Interval' => $baseDir . '/Lesson43/src/Interval.php',
 );
