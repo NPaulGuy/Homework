@@ -10,6 +10,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'L' => 
         array (
             'Lesson42\\' => 9,
+            'Lesson41\\' => 9,
             'Lesson40\\' => 9,
             'Lesson39\\' => 9,
             'Lesson38\\' => 9,
@@ -48,6 +49,9 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         array (
             0 => __DIR__ . '/../..' . '/Lesson42/src',
         ),
+        'Lesson41\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson41/src',
         'Lesson40\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson40/src',
@@ -246,6 +250,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson39\\User' => __DIR__ . '/../..' . '/Lesson39/src/User.php',
         'Lesson40\\Date' => __DIR__ . '/../..' . '/Lesson40/src/Date.php',
         'Lesson40\\User' => __DIR__ . '/../..' . '/Lesson40/src/User.php',
+        'Lesson41\\User' => __DIR__ . '/../..' . '/Lesson41/src/User.php',
         'Lesson42\\Date' => __DIR__ . '/../..' . '/Lesson42/src/Date.php',
     );
 
