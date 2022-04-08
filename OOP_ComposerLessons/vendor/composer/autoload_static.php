@@ -10,6 +10,10 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'L' => 
         array (
             'Lesson49\\' => 9,
+            'Lesson48\\' => 9,
+            'Lesson47\\' => 9,
+            'Lesson46\\' => 9,
+            'Lesson45\\' => 9,
             'Lesson44\\' => 9,
             'Lesson43\\' => 9,
             'Lesson42\\' => 9,
@@ -51,6 +55,18 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson49\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson49/src',
+        'Lesson48\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson48/src',
+        'Lesson47\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson47/src',
+        'Lesson46\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson46/src',
+        'Lesson45\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson44/src',
         ),
         'Lesson44\\' => 
         array (
@@ -272,6 +288,10 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson43\\Interval' => __DIR__ . '/../..' . '/Lesson43/src/Interval.php',
         'Lesson44\\File' => __DIR__ . '/../..' . '/Lesson44/src/File.php',
         'Lesson44\\iFile' => __DIR__ . '/../..' . '/Lesson44/src/iFile.php',
+        'Lesson45\\Tag' => __DIR__ . '/../..' . '/Lesson45/src/Tag.php',
+        'Lesson46\\Tag' => __DIR__ . '/../..' . '/Lesson46/src/Tag.php',
+        'Lesson47\\Tag' => __DIR__ . '/../..' . '/Lesson47/src/Tag.php',
+        'Lesson48\\Tag' => __DIR__ . '/../..' . '/Lesson48/src/Tag.php',
         'Lesson49\\Tag' => __DIR__ . '/../..' . '/Lesson49/src/Tag.php',
     );
 
