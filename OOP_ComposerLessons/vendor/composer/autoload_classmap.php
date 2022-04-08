@@ -87,4 +87,5 @@ return array(
     'Lesson43\\Interval' => $baseDir . '/Lesson43/src/Interval.php',
     'Lesson44\\File' => $baseDir . '/Lesson44/src/File.php',
     'Lesson44\\iFile' => $baseDir . '/Lesson44/src/iFile.php',
+    'Lesson48\\Tag' => $baseDir . '/Lesson48/src/Tag.php',
 );
