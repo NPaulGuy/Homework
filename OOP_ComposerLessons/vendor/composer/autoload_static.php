@@ -9,6 +9,7 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     public static $prefixLengthsPsr4 = array (
         'L' => 
         array (
+            'Lesson51\\' => 9,
             'Lesson50\\' => 9,
             'Lesson49\\' => 9,
             'Lesson48\\' => 9,
@@ -53,6 +54,9 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
     );
 
     public static $prefixDirsPsr4 = array (
+        'Lesson51\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Lesson51/src',
         'Lesson50\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Lesson50/src',
@@ -301,6 +305,8 @@ class ComposerStaticInita580d9590d33159a91396d33402cd8e9
         'Lesson47\\Tag' => __DIR__ . '/../..' . '/Lesson47/src/Tag.php',
         'Lesson48\\Tag' => __DIR__ . '/../..' . '/Lesson48/src/Tag.php',
         'Lesson49\\Tag' => __DIR__ . '/../..' . '/Lesson49/src/Tag.php',
+        'Lesson50\\Tag' => __DIR__ . '/../..' . '/Lesson50/src/Tag.php',
+        'Lesson51\\Tag' => __DIR__ . '/../..' . '/Lesson51/src/Tag.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

@@ -91,4 +91,5 @@ return array(
     'Lesson47\\Tag' => $baseDir . '/Lesson47/src/Tag.php',
     'Lesson48\\Tag' => $baseDir . '/Lesson48/src/Tag.php',
     'Lesson49\\Tag' => $baseDir . '/Lesson49/src/Tag.php',
+    'Lesson51\\Tag' => $baseDir . '/Lesson51/src/Tag.php',
 );
