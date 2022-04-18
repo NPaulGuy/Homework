@@ -25,9 +25,10 @@ function getMaxSubSum(arr) {
 		}
 		let subArr = [];
 		let bufferSum = 0;
+		// Равно двум, чтобы начать искать суммы подмассивов размером 2 элемента и больше(до всего массива целиком).
 		for (let subArrayLength = 2; subArrayLength < arr.length; subArrayLength++) {
 			for (let i = 0; i + subArrayLength <= arr.length; i++) {
-				for (let j = i; j < i + subArrayLength - 1; j++) {
+				for (let j = i; j < i + subArrayLength; j++) {
 					bufferSum += arr[j];
 					subArr.push(arr[j]);
 				}
@@ -59,6 +60,6 @@ function getMaxSubSum(arr) {
 
   return maxSum;
 }*/
-let arr = [1, -2, 3, 4, -9, 6];
+let arr = [12, -13, 32, 64, -30];
 //alert(getMaxSubSum(arr));
 alert(String(getMaxSubSum(arr)));
